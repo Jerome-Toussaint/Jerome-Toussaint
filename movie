@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulp Fiction Tribute</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header, .footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hoofdtitel {
+            font-family: 'Lobster', cursive;
+            font-size: 36px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .vetgedrukt {
+            font-weight: bold;
+        }
+
+        .subtitel {
+            font-family: 'Rock Salt', cursive;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            font-family: 'Rock Salt', cursive;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .quote {
+            font-family: 'Rock Salt', cursive;
+            font-size: 22px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .footer {
+            font-family: monospace;
+            white-space: pre;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">Jerôme Toussaint's favo film:</header>
+    
+    <div class="main">
+        <h1 class="hoofdtitel">"PULP FICTION"</h1>
+        <p>De iconische film <span class="vetgedrukt">Pulp Fiction</span> Door Quentin Tarantino.</p>
+
+        <section>
+            <h2 class="subtitel">Iconische Scène</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/s7EdQ4FqbhY" title="Pulp Fiction Scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p>Een van de meest memorabele scènes uit de film waar Jules Winnfield zijn beroemde bijbelcitaat reciteert.</p>
+        </section>
+
+        <section>
+            <h2 class="subtitel">Bekende Quotes</h2>
+            <p class="quote">"The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men..."</p>
+            <p class="quote">"Do you know what they call a Quarter Pounder with Cheese in Paris?"</p>
+            <p class="quote">"Zed's dead, baby. Zed's dead."</p>
+        </section>
+    </div>
+
+    <img src="https://m.media-amazon.com/images/M/MV5BMjAyMjUyNzg1Ml5BMl5BanBnXkFtZTgwNzAwMzg5MTE@._V1_.jpg" alt="Pulp Fiction Poster" class="image">
+    
+    <footer class="footer">
+        <pre>
+         ____ 
+        |    |
+        |   .|
+        |__. |
+            ||
+            ||
+        </pre>
+        <p>"You won't know the facts until you've seen the fiction."</p>
+    </footer>
+
+</body>
+</html>
